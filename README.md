@@ -13,6 +13,10 @@ A command line tool to convert Jupyter Notebook (.ipynb) files into Markdown. Th
 * Embeds images directly into the markdown file using Base64 by default.
 * Supports saving images to a local directory via a flag.
 
+## Quick start
+```bash
+uvx --from git+https://github.com/Sarin-jacob/nb2md nb2md your_notebook.ipynb
+```
 ## Installation
 
 Ensure you have uv installed. From the project root, run:
